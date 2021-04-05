@@ -71,7 +71,7 @@ export default [
 		input: 'src/Components/FizzBuzz.ts',
 		output: {
 			name: 'FizzBuzzComponent',
-			file: 'FizzBuzzComponent.js',
+			file: 'public/build/FizzBuzzComponent.UMD.js',
 			format: 'umd',
 			sourcemap: true,
 		},

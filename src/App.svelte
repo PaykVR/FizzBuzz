@@ -3,8 +3,7 @@
 
 	export let name: string;
 
-	const data = Array.from({length: 100}, (_, i) => (i + 1))
-
+	const data = Array.from({length: 100}, (_, i) => (i + 1));
 </script>
 
 <main>
@@ -26,9 +25,6 @@
 	{#each data as i}
 		<FizzBuzz inputNumber={i}/>
 	{/each}
-
-	
-
 </main>
 
 <style>
