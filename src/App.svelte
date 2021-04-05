@@ -3,7 +3,7 @@
 
 	export let name: string;
 
-	let data = Array.from({length: 100}, (_, i) => (i + 1))
+	const data = Array.from({length: 100}, (_, i) => (i + 1))
 
 </script>
 

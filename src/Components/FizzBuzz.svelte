@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let inputNumber;
+	export let inputNumber: number;
 
-  const FizzBuzzFunction = (a, fallback) => {
+  const FizzBuzzFunction = (a: number, fallback: string) => {
 		if (a % 3 === 0 && a % 5 === 0) {
 			return 'FizzBuzz';
 		} else if (a % 3 === 0) {

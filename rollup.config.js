@@ -68,16 +68,21 @@ export default [
 
 	// browser-friendly UMD component build
 	{
-		input: 'src/Components/FizzBuzz.svelte',
+		input: 'src/Components/FizzBuzz.ts',
 		output: {
 			name: 'FizzBuzzComponent',
 			file: 'FizzBuzzComponent.js',
 			format: 'umd',
+			sourcemap: true,
 		},
 		plugins: [
-			svelte(),
+			svelte({
+				dev: !production,
+				preprocess: sveltePreprocess(),
+			}),
 			resolve(),
-			commonjs()
+			commonjs(),
+			typescript()
 		],
 	},
 

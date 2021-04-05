@@ -326,6 +326,14 @@
     	}
     }
 
-    return FizzBuzz;
+    const fizzBuzz = new FizzBuzz({
+        target: document.body,
+        props: {
+            name: 'Chris'
+        }
+    });
+
+    return fizzBuzz;
 
 })));
+//# sourceMappingURL=FizzBuzzComponent.js.map
