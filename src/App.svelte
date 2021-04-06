@@ -17,7 +17,7 @@
 	</p>
 
 	<p>
-		Be sure to checkout what Svelte is. You might understand why i have choosed it. 
+		Be sure to checkout what Svelte is. You might understand why i choosed it. 
 		It's properly the best candidate for your problem ;)
 	</p>
 	<hr/>
