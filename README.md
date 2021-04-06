@@ -42,7 +42,7 @@ npm run build
 
 Checkout the public/build folder...
 
-### WHat does Svelte do, what others don't?
+### What does Svelte do, what others don't?
 
 Imagen a scenario where we want to transform a php/jquery
 project step by step in something component driven, with data bindings,
