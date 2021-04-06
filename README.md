@@ -5,6 +5,9 @@ More on that later...
 
 ### Ok, lets dive into it
 
+You might want to install an IDE Plugin for Svelte...
+[JetBrain Plugin](https://plugins.jetbrains.com/plugin/12375-svelte)
+
 You need NPM of course.
 Rollup needs to be installed globaly. On Unix-like systems you need super user rights.
 
