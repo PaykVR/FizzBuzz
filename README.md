@@ -56,7 +56,7 @@ code all over the place. You could go for a global approach,
 but you will be forced to keep all Vue/React versions on the same level or somehow
 deal with multiple runtimes (or simply don't mind the waste).
  
-In Svelte, there is almost no runtime code, no extra dependencies ect.
+In Svelte, there is relatively few runtime code, no extra dependencies etc.
 It rather transforms svelte code into standalone vanilla js code. 
 There is little extra code to deal with mounting
 and the events to the oter world, but not much more.
